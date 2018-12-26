@@ -1,0 +1,2 @@
+CREATE DATABASE thesis_of_trakya_university
+CHARACTER SET utf8 COLLATE utf8_turkish_ci
