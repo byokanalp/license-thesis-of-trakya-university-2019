@@ -1,4 +1,4 @@
-INSERT INTO `co2` (`year`, `moon`, `decimal_date`, `average`, `interpolated`, `trend`, `days`) 
+INSERT INTO `carbon_dioxide` (`year`, `moon`, `decimal_date`, `average`, `interpolated`, `trend`, `days`) 
 VALUES
 ("1958","3","1958.208","315.71","315.71","314.62","-1"),
 ("1958","4","1958.292","317.45","317.45","315.29","-1"),

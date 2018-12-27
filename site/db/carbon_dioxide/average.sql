@@ -1,0 +1,1 @@
+SELECT year, AVG(trend) as average FROM `carbon_dioxide` GROUP BY year

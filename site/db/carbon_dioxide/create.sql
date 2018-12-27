@@ -1,4 +1,4 @@
-CREATE TABLE `co2` (
+CREATE TABLE `carbon_dioxide` (
     `id` INT(11) NOT NULL AUTO_INCREMENT,
     `year` INT(4) NOT NULL,
     `moon` INT(2) NOT NULL,
