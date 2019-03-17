@@ -1,1 +1,0 @@
-SELECT year, AVG(extent) as average FROM `seaice_extent_daily` GROUP BY year
