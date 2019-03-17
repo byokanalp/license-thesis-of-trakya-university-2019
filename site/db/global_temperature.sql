@@ -1,3 +1,12 @@
+/**
+ * TABLE NAME -> Global Temperature (Küresel Sıcaklık)
+ *
+ * TABLE COLUMN
+ *  --> year (yıl)
+ *  --> ante meridiem (öğleden önce)
+ *  --> post meridiem (öğleden sonra)
+ */
+
 CREATE TABLE `global_temperature` (
     `id`            SMALLINT     UNSIGNED  NOT NULL  AUTO_INCREMENT,
     `year`          SMALLINT(4)  UNSIGNED  NOT NULL,

@@ -1,4 +1,14 @@
-CREATE TABLE `seaice_extent_daily` (
+/**
+ * TABLE NAME -> Sea Ice Extent Daily (Günlük Deniz Buzu)
+ *
+ * TABLE COLUMN
+ *  --> year (yıl)
+ *  --> moon (ay)
+ *  --> day (gün)
+ *  --> extent (derece) : mevcut güne ait derece bilgisi
+ */
+
+CREATE TABLE `sea_ice_extent_daily` (
     `id`      SMALLINT     UNSIGNED  NOT NULL  AUTO_INCREMENT,
     `year`    SMALLINT(4)  UNSIGNED  NOT NULL,
     `moon`    SMALLINT(2)  UNSIGNED  NOT NULL,
@@ -11,7 +21,7 @@ CREATE TABLE `seaice_extent_daily` (
 -- DATA's
 -- 
 -- 
-INSERT INTO `seaice_extent_daily` (`year`, `moon`, `day`, `extent`) 
+INSERT INTO `sea_ice_extent_daily` (`year`, `moon`, `day`, `extent`) 
   VALUES
     ("1978", "10", "26", "17.624"),
     ("1978", "10", "28", "17.803"),

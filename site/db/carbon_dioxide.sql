@@ -1,3 +1,16 @@
+/**
+ * TABLE NAME -> Carbon Dioxide (Karbon Dioksit)
+ *
+ * TABLE COLUMN
+ *  --> year (yıl)
+ *  --> moon (ay)
+ *  --> decimal date (ondalık tarih)
+ *  --> average (ortalama)
+ *  --> interpolated (arasına sokmak)
+ *  --> trend (akım)
+ *  --> days (günler)
+ */
+
 CREATE TABLE `carbon_dioxide` (
     `id`            SMALLINT     UNSIGNED  NOT NULL  AUTO_INCREMENT,
     `year`          SMALLINT(4)  UNSIGNED  NOT NULL,
