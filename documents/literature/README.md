@@ -15,3 +15,11 @@ Tez taramasıyla varolan kaynak içerisinden küresel ısınma, veri madenciliğ
 | 321250 | Döviz Kurları, Petrol Fiyatları, Küresel Risk Algısı ve Küresel Isınmanın Gıda Fiyatları Üzerindeki Etkisi | Derya Dağdelen | - |
 | 342448 | Küresel Isınmanın Güvenlik Boyutu | Mehmet Yanık | - |
 | 464324 | Küresel Isınmanın Türkiye'de Tarım Sektörü Üzeirne Etkisi: Bir ARDL Modeli Uygulaması | Büşra Temur | - |
+
+
+## TEZ'e Eklenenler
+- 11444.pdf
+- 48040.pdf
+- 200919.pdf
+- 216069.pdf
+- 220151.pdf

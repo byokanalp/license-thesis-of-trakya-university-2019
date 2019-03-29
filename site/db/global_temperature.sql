@@ -3,8 +3,8 @@
  *
  * TABLE COLUMN
  *  --> year (yıl)
- *  --> ante meridiem (öğleden önce)
- *  --> post meridiem (öğleden sonra)
+ *  --> ante meridiem (öğleden önce) °C derece olarak
+ *  --> post meridiem (öğleden sonra) °C derece olarak
  */
 
 CREATE TABLE `global_temperature` (
@@ -158,7 +158,8 @@ INSERT INTO `global_temperature` (`year`, `anteMeridiem`, `postMeridiem`)
     ('2014', '0.73', '0.77'),
     ('2015', '0.86', '0.83'),
     ('2016', '0.99', '0.89'),
-    ('2017', '0.9', '0.95');
+    ('2017', '0.9', '0.95'),
+    ('2018', '0.82', '0.86');
 -- 
 -- 
 -- QUERY's
