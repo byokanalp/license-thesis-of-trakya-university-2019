@@ -23,8 +23,8 @@ Küresel ısınmaya etki eden veriler yapay sinir ağı ile işlenerek yorumlana
 | Tarih | Açıklama | Durum |
 |:-----:|:---------|:-----:|
 | 2018 Aralık | Küresel ısınmayı etkileyen ham verilerin internet ortamında ya da ilgili kurum ve kuruluşlardan elde edilmesi. | + |
-| Ocak 2019 | Küresel ısınmayı etki ettiği düşünülen verilerin incelenerek hangi verilerin tutarlı sonuçlar verdiğinin tespit edilmesi. | ? |
-| Şubat 2019 | Kullanılmasına karar verilen ham verilerin işlenerek tutarlı verilerin elde edilmesi. | ? |
-| Mart 2019 | Elde edilen verilere en uygun yapay sinir ağ metodu uygulanarak sonuçların elde edilmesi. | ? |
+| Ocak 2019 | Küresel ısınmayı etki ettiği düşünülen verilerin incelenerek hangi verilerin tutarlı sonuçlar verdiğinin tespit edilmesi. | + |
+| Şubat 2019 | Kullanılmasına karar verilen ham verilerin işlenerek tutarlı verilerin elde edilmesi. | + |
+| Mart 2019 | Elde edilen verilere en uygun yapay sinir ağ metodu uygulanarak sonuçların elde edilmesi. | + |
 | Nisan 2019 | Ulaşılan sonuçların görsel tasarım ile desteklenerek kullanımı kolay bir tasarımın yapılması. | ? |
 | Mayıs 2019 | Tez çalışmasının tüm adımlarının tekrar kontrol edilmesi. Herhangi olası hata ve sorunların düzeltilmesi. | ? |
