@@ -7,14 +7,14 @@
  *   C2  -->  n2o: azot protoksit seviyesi
  */
 
-CREATE TABLE `gas__N2O` (
+CREATE TABLE `gas__n2o` (
     `id`    SMALLINT     UNSIGNED  NOT NULL  AUTO_INCREMENT,
     `year`  SMALLINT(4)  UNSIGNED  NOT NULL,
     `n2o`   FLOAT(10,2)            NOT NULL,
   PRIMARY KEY(`id`)
 );
 
-INSERT INTO `gas__N2O` (`year`, `n2o`) 
+INSERT INTO `gas__n2o` (`year`, `n2o`) 
 VALUES
   ('1960', '292.30'),
   ('1961', '292.40'),

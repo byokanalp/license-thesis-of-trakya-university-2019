@@ -11,7 +11,7 @@
  *  --> days (günler)
  */
 
-CREATE TABLE `gas__CO2` (
+CREATE TABLE `gas__co2` (
     `id`            SMALLINT     UNSIGNED  NOT NULL  AUTO_INCREMENT,
     `year`          SMALLINT(4)  UNSIGNED  NOT NULL,
     `moon`          SMALLINT(2)  UNSIGNED  NOT NULL,
@@ -21,13 +21,24 @@ CREATE TABLE `gas__CO2` (
     `trend`         FLOAT(6,2)             NOT NULL,
     `days`          SMALLINT(2)  UNSIGNED  NOT NULL,
   PRIMARY KEY(`id`)
-);
+);    
+
+-- 
+-- 
+-- QUERY's
+-- 
+-- 
+/* Bir yıla ait ay verilerinin ortalama değerlerini alan sql kodu */
+SELECT year, AVG(trend) as co2 FROM `gas__co2` GROUP BY year 
+
+
+
 --
 -- 
 -- DATA's
 -- 
 -- 
-INSERT INTO `gas__CO2` (`year`, `moon`, `decimalDate`, `average`, `interpolated`, `trend`, `days`) 
+INSERT INTO `gas__co2` (`year`, `moon`, `decimalDate`, `average`, `interpolated`, `trend`, `days`) 
   VALUES
     ("1958","3","1958.208","315.71","315.71","314.62","-1"),
     ("1958","4","1958.292","317.45","317.45","315.29","-1"),
@@ -757,12 +768,4 @@ INSERT INTO `gas__CO2` (`year`, `moon`, `decimalDate`, `average`, `interpolated`
     ("2018","8","2018.625","406.99","406.99","408.88","30"),
     ("2018","9","2018.708","405.51","405.51","409.09","29"),
     ("2018","10","2018.792","406.00","406.00","409.38","30"),
-    ("2018","11","2018.875","408.02","408.02","409.98","24");    
-
--- 
--- 
--- QUERY's
--- 
--- 
-/* Bir yıla ait ay verilerinin ortalama değerlerini alan sql kodu */
-SELECT year, AVG(trend) as average FROM `carbon_dioxide` GROUP BY year 
+    ("2018","11","2018.875","408.02","408.02","409.98","24");

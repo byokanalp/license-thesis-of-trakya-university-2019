@@ -7,15 +7,46 @@
  *   C2  -->  o2: oksijen seviyesi
  */
 
-CREATE TABLE `gas__O2` (
+CREATE TABLE `gas__o2` (
     `id`    SMALLINT     UNSIGNED  NOT NULL  AUTO_INCREMENT,
     `year`  SMALLINT(4)  UNSIGNED  NOT NULL,
     `o2`    FLOAT(10,2)            NOT NULL,
   PRIMARY KEY(`id`)
 );
 
-INSERT INTO `gas__O2` (`year`, `o2`) 
+INSERT INTO `gas__o2` (`year`, `o2`) 
 VALUES
+  ('1960', NULL),
+  ('1961', NULL),
+  ('1962', NULL),
+  ('1963', NULL),
+  ('1964', NULL),
+  ('1965', NULL),
+  ('1966', NULL),
+  ('1967', NULL),
+  ('1968', NULL),
+  ('1969', NULL),
+  ('1970', NULL),
+  ('1971', NULL),
+  ('1972', NULL),
+  ('1973', NULL),
+  ('1974', NULL),
+  ('1975', NULL),
+  ('1976', NULL),
+  ('1977', NULL),
+  ('1978', NULL),
+  ('1979', NULL),
+  ('1980', NULL),
+  ('1981', NULL),
+  ('1982', NULL),
+  ('1983', NULL),
+  ('1984', NULL),
+  ('1985', NULL),
+  ('1986', NULL),
+  ('1987', NULL),
+  ('1988', NULL),
+  ('1989', NULL),
+  ('1990', NULL),
   ('1991', '-111.94'),
   ('1992', '-130.73'),
   ('1993', '-130.74'),
