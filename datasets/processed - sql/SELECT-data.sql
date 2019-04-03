@@ -1,12 +1,12 @@
 SELECT
 	SICAKLIK.year AS `YIL`,
-  (NÜFUS.male + NÜFUS.female) AS `DÜNYA NÜFUSU`,
+  (NÜFUS.male + NÜFUS.female) AS `DUNYA_NUFUSU`,
   CH4.ch4 AS `CH4`,
   N2O.n2o AS `N2O`,
   AVG(CO2.trend) AS `CO2`,
   O2.o2 AS `O2`,
-  SICAKLIK.anteMeridiem AS `SICAKLIK: öö`
-  SICAKLIK.postMeridiem AS `SICAKLIK: ös`
+  SICAKLIK.anteMeridiem AS `SICAKLIK SABAH`
+  SICAKLIK.postMeridiem AS `SICAKLIK AKSAM`
 FROM global_temperature AS SICAKLIK     
 
 INNER JOIN gas__ch4 AS CH4
