@@ -5,7 +5,7 @@ SELECT
   N2O.n2o AS `N2O`,
   AVG(CO2.trend) AS `CO2`,
   O2.o2 AS `O2`,
-  SICAKLIK.anteMeridiem AS `SICAKLIK: öö`,
+  SICAKLIK.anteMeridiem AS `SICAKLIK: öö`
   SICAKLIK.postMeridiem AS `SICAKLIK: ös`
 FROM global_temperature AS SICAKLIK     
 
