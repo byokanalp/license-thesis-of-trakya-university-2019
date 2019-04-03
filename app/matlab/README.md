@@ -1,4 +1,4 @@
-# MatLAB
+# MatLAB ile Öğrenme İşlemi
 
 
 ``` php
@@ -23,3 +23,6 @@ input = dataset(:,1:5);
 output_sicaklik_sabah = dataset(:, end-1);
 output_sicaklik_aksam = dataset(:, end);
 ```
+
+Veriler `input` ve `output` değişkenlerine aktarıldıktan sonra öğrenme işlemi gerçekleştirme için. `APPS -> Neural Net Fitting` ile öğrenme işlemi adımlarına geçildi.
+
